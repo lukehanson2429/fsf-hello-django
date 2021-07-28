@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>To add a Todo Item:</h1>
+    <h1>To Add a Todo Item:</h1>
     <form method="POST" action="/add">
         {% csrf_token %}
         {{ form.as_p }}
